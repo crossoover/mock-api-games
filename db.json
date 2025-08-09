@@ -1,55 +1,265 @@
 {
   "data": [
     {
-      "id": "1",
+      "id": "game1",
       "title": "Starburst",
       "thumbnail": "https://example.com/thumbnails/starburst.jpg",
       "provider": {
-        "id": "netent",
+        "id": "prov1",
         "name": "NetEnt",
         "logo": "https://example.com/logos/netent.png"
       },
       "type": "slots",
       "slug": "starburst",
-      "isNew": false,
-      "tags": ["classic", "space"]
+      "isNew": true,
+      "tags": ["popular", "classic", "space"]
     },
     {
-      "id": "2",
+      "id": "game2",
+      "title": "Gonzo's Quest",
+      "thumbnail": "https://example.com/thumbnails/gonzos-quest.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "slots",
+      "slug": "gonzos-quest",
+      "isNew": false,
+      "tags": ["adventure", "high-volatility"]
+    },
+    {
+      "id": "game3",
+      "title": "Mega Moolah",
+      "thumbnail": "https://example.com/thumbnails/mega-moolah.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "slots",
+      "slug": "mega-moolah",
+      "isNew": false,
+      "tags": ["jackpot", "safari"]
+    },
+    {
+      "id": "game4",
       "title": "Book of Dead",
       "thumbnail": "https://example.com/thumbnails/book-of-dead.jpg",
       "provider": {
-        "id": "playngo",
+        "id": "prov3",
         "name": "Play'n GO",
         "logo": "https://example.com/logos/playngo.png"
       },
       "type": "slots",
       "slug": "book-of-dead",
-      "isNew": false,
-      "tags": ["adventure", "bonus"]
+      "isNew": true,
+      "tags": ["egypt", "adventure"]
     },
     {
-      "id": "3",
-      "title": "Live Blackjack",
-      "thumbnail": "https://example.com/thumbnails/live-blackjack.jpg",
+      "id": "game5",
+      "title": "Wolf Gold",
+      "thumbnail": "https://example.com/thumbnails/wolf-gold.jpg",
       "provider": {
-        "id": "evolution",
-        "name": "Evolution Gaming",
-        "logo": "https://example.com/logos/evolution.png"
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
       },
-      "type": "live",
-      "slug": "live-blackjack",
+      "type": "slots",
+      "slug": "wolf-gold",
       "isNew": false,
-      "tags": ["cards", "classic"]
+      "tags": ["animals", "popular"]
     },
     {
-      "id": "4",
+      "id": "game6",
+      "title": "Bonanza",
+      "thumbnail": "https://example.com/thumbnails/bonanza.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "slots",
+      "slug": "bonanza",
+      "isNew": false,
+      "tags": ["mining", "high-volatility"]
+    },
+    {
+      "id": "game7",
+      "title": "Twin Spin",
+      "thumbnail": "https://example.com/thumbnails/twin-spin.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "slots",
+      "slug": "twin-spin",
+      "isNew": false,
+      "tags": ["classic", "retro"]
+    },
+    {
+      "id": "game8",
+      "title": "Immortal Romance",
+      "thumbnail": "https://example.com/thumbnails/immortal-romance.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "slots",
+      "slug": "immortal-romance",
+      "isNew": false,
+      "tags": ["fantasy", "romance"]
+    },
+    {
+      "id": "game9",
+      "title": "Reactoonz",
+      "thumbnail": "https://example.com/thumbnails/reactoonz.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "slots",
+      "slug": "reactoonz",
+      "isNew": true,
+      "tags": ["space", "fun"]
+    },
+    {
+      "id": "game10",
+      "title": "Sweet Bonanza",
+      "thumbnail": "https://example.com/thumbnails/sweet-bonanza.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "slots",
+      "slug": "sweet-bonanza",
+      "isNew": true,
+      "tags": ["candy", "fun"]
+    },
+    {
+      "id": "game11",
+      "title": "White Rabbit",
+      "thumbnail": "https://example.com/thumbnails/white-rabbit.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "slots",
+      "slug": "white-rabbit",
+      "isNew": false,
+      "tags": ["fantasy", "adventure"]
+    },
+    {
+      "id": "game12",
+      "title": "Dead or Alive",
+      "thumbnail": "https://example.com/thumbnails/dead-or-alive.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "slots",
+      "slug": "dead-or-alive",
+      "isNew": false,
+      "tags": ["western", "high-volatility"]
+    },
+    {
+      "id": "game13",
+      "title": "Thunderstruck II",
+      "thumbnail": "https://example.com/thumbnails/thunderstruck-ii.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "slots",
+      "slug": "thunderstruck-ii",
+      "isNew": false,
+      "tags": ["mythology", "classic"]
+    },
+    {
+      "id": "game14",
+      "title": "Moon Princess",
+      "thumbnail": "https://example.com/thumbnails/moon-princess.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "slots",
+      "slug": "moon-princess",
+      "isNew": false,
+      "tags": ["anime", "magic"]
+    },
+    {
+      "id": "game15",
+      "title": "The Dog House",
+      "thumbnail": "https://example.com/thumbnails/the-dog-house.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "slots",
+      "slug": "the-dog-house",
+      "isNew": true,
+      "tags": ["animals", "fun"]
+    },
+    {
+      "id": "game16",
+      "title": "Extra Chilli",
+      "thumbnail": "https://example.com/thumbnails/extra-chilli.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "slots",
+      "slug": "extra-chilli",
+      "isNew": false,
+      "tags": ["food", "high-volatility"]
+    },
+    {
+      "id": "game17",
+      "title": "Divine Fortune",
+      "thumbnail": "https://example.com/thumbnails/divine-fortune.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "slots",
+      "slug": "divine-fortune",
+      "isNew": false,
+      "tags": ["mythology", "jackpot"]
+    },
+    {
+      "id": "game18",
+      "title": "Blackjack Classic",
+      "thumbnail": "https://example.com/thumbnails/blackjack-classic.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "table",
+      "slug": "blackjack-classic",
+      "isNew": false,
+      "tags": ["card", "classic"]
+    },
+    {
+      "id": "game19",
       "title": "European Roulette",
       "thumbnail": "https://example.com/thumbnails/european-roulette.jpg",
       "provider": {
-        "id": "netent",
-        "name": "NetEnt",
-        "logo": "https://example.com/logos/netent.png"
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
       },
       "type": "table",
       "slug": "european-roulette",
@@ -57,262 +267,724 @@
       "tags": ["roulette", "classic"]
     },
     {
-      "id": "5",
-      "title": "Aviator",
-      "thumbnail": "https://example.com/thumbnails/aviator.jpg",
+      "id": "game20",
+      "title": "Baccarat Pro",
+      "thumbnail": "https://example.com/thumbnails/baccarat-pro.jpg",
       "provider": {
-        "id": "spribe",
-        "name": "Spribe",
-        "logo": "https://example.com/logos/spribe.png"
-      },
-      "type": "instant",
-      "slug": "aviator",
-      "isNew": true,
-      "tags": ["crash", "multiplier"]
-    },
-    {
-      "id": "6",
-      "title": "Sweet Bonanza",
-      "thumbnail": "https://example.com/thumbnails/sweet-bonanza.jpg",
-      "provider": {
-        "id": "pragmatic",
-        "name": "Pragmatic Play",
-        "logo": "https://example.com/logos/pragmatic.png"
-      },
-      "type": "slots",
-      "slug": "sweet-bonanza",
-      "isNew": false,
-      "tags": ["candy", "multiplier"]
-    },
-    {
-      "id": "7",
-      "title": "Lightning Roulette",
-      "thumbnail": "https://example.com/thumbnails/lightning-roulette.jpg",
-      "provider": {
-        "id": "evolution",
-        "name": "Evolution Gaming",
-        "logo": "https://example.com/logos/evolution.png"
-      },
-      "type": "live",
-      "slug": "lightning-roulette",
-      "isNew": false,
-      "tags": ["roulette", "multiplier"]
-    },
-    {
-      "id": "8",
-      "title": "Blackjack Classic",
-      "thumbnail": "https://example.com/thumbnails/blackjack-classic.jpg",
-      "provider": {
-        "id": "netent",
+        "id": "prov1",
         "name": "NetEnt",
         "logo": "https://example.com/logos/netent.png"
       },
       "type": "table",
-      "slug": "blackjack-classic",
-      "isNew": false,
-      "tags": ["cards", "classic"]
-    },
-    {
-      "id": "9",
-      "title": "Plinko",
-      "thumbnail": "https://example.com/thumbnails/plinko.jpg",
-      "provider": {
-        "id": "spribe",
-        "name": "Spribe",
-        "logo": "https://example.com/logos/spribe.png"
-      },
-      "type": "instant",
-      "slug": "plinko",
+      "slug": "baccarat-pro",
       "isNew": true,
-      "tags": ["strategy", "instant-win"]
+      "tags": ["card", "classic"]
     },
     {
-      "id": "10",
-      "title": "Gates of Olympus",
-      "thumbnail": "https://example.com/thumbnails/gates-of-olympus.jpg",
+      "id": "game21",
+      "title": "Casino Hold'em",
+      "thumbnail": "https://example.com/thumbnails/casino-holdem.jpg",
       "provider": {
-        "id": "pragmatic",
-        "name": "Pragmatic Play",
-        "logo": "https://example.com/logos/pragmatic.png"
-      },
-      "type": "slots",
-      "slug": "gates-of-olympus",
-      "isNew": false,
-      "tags": ["mythology", "multiplier"]
-    },
-    {
-      "id": "11",
-      "title": "Crazy Time",
-      "thumbnail": "https://example.com/thumbnails/crazy-time.jpg",
-      "provider": {
-        "id": "evolution",
-        "name": "Evolution Gaming",
-        "logo": "https://example.com/logos/evolution.png"
-      },
-      "type": "live",
-      "slug": "crazy-time",
-      "isNew": false,
-      "tags": ["bonus", "multiplier"]
-    },
-    {
-      "id": "12",
-      "title": "Fire Joker",
-      "thumbnail": "https://example.com/thumbnails/fire-joker.jpg",
-      "provider": {
-        "id": "playngo",
+        "id": "prov3",
         "name": "Play'n GO",
         "logo": "https://example.com/logos/playngo.png"
       },
-      "type": "slots",
-      "slug": "fire-joker",
+      "type": "table",
+      "slug": "casino-holdem",
       "isNew": false,
-      "tags": ["classic", "adventure"]
+      "tags": ["poker", "card"]
     },
     {
-      "id": "13",
-      "title": "Baccarat",
-      "thumbnail": "https://example.com/thumbnails/baccarat.jpg",
+      "id": "game22",
+      "title": "American Roulette",
+      "thumbnail": "https://example.com/thumbnails/american-roulette.jpg",
       "provider": {
-        "id": "netent",
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "table",
+      "slug": "american-roulette",
+      "isNew": false,
+      "tags": ["roulette", "classic"]
+    },
+    {
+      "id": "game23",
+      "title": "Three Card Poker",
+      "thumbnail": "https://example.com/thumbnails/three-card-poker.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "table",
+      "slug": "three-card-poker",
+      "isNew": true,
+      "tags": ["poker", "card"]
+    },
+    {
+      "id": "game24",
+      "title": "Blackjack Multi-Hand",
+      "thumbnail": "https://example.com/thumbnails/blackjack-multi-hand.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "table",
+      "slug": "blackjack-multi-hand",
+      "isNew": false,
+      "tags": ["card", "classic"]
+    },
+    {
+      "id": "game25",
+      "title": "Caribbean Stud",
+      "thumbnail": "https://example.com/thumbnails/caribbean-stud.jpg",
+      "provider": {
+        "id": "prov1",
         "name": "NetEnt",
         "logo": "https://example.com/logos/netent.png"
       },
       "type": "table",
-      "slug": "baccarat",
+      "slug": "caribbean-stud",
       "isNew": false,
-      "tags": ["cards", "classic"]
+      "tags": ["poker", "classic"]
     },
     {
-      "id": "14",
-      "title": "Mines",
-      "thumbnail": "https://example.com/thumbnails/mines.jpg",
+      "id": "game26",
+      "title": "French Roulette",
+      "thumbnail": "https://example.com/thumbnails/french-roulette.jpg",
       "provider": {
-        "id": "spribe",
-        "name": "Spribe",
-        "logo": "https://example.com/logos/spribe.png"
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
       },
-      "type": "instant",
-      "slug": "mines",
-      "isNew": true,
-      "tags": ["strategy", "instant-win"]
+      "type": "table",
+      "slug": "french-roulette",
+      "isNew": false,
+      "tags": ["roulette", "classic"]
     },
     {
-      "id": "15",
-      "title": "Big Bass Bonanza",
-      "thumbnail": "https://example.com/thumbnails/big-bass-bonanza.jpg",
+      "id": "game27",
+      "title": "Baccarat Gold",
+      "thumbnail": "https://example.com/thumbnails/baccarat-gold.jpg",
       "provider": {
-        "id": "pragmatic",
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "table",
+      "slug": "baccarat-gold",
+      "isNew": false,
+      "tags": ["card", "classic"]
+    },
+    {
+      "id": "game28",
+      "title": "Texas Hold'em",
+      "thumbnail": "https://example.com/thumbnails/texas-holdem.jpg",
+      "provider": {
+        "id": "prov4",
         "name": "Pragmatic Play",
         "logo": "https://example.com/logos/pragmatic.png"
       },
-      "type": "slots",
-      "slug": "big-bass-bonanza",
-      "isNew": false,
-      "tags": ["adventure", "bonus"]
+      "type": "table",
+      "slug": "texas-holdem",
+      "isNew": true,
+      "tags": ["poker", "card"]
     },
     {
-      "id": "16",
+      "id": "game29",
+      "title": "Blackjack VIP",
+      "thumbnail": "https://example.com/thumbnails/blackjack-vip.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "table",
+      "slug": "blackjack-vip",
+      "isNew": true,
+      "tags": ["card", "high-stakes"]
+    },
+    {
+      "id": "game30",
+      "title": "Mini Baccarat",
+      "thumbnail": "https://example.com/thumbnails/mini-baccarat.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "table",
+      "slug": "mini-baccarat",
+      "isNew": false,
+      "tags": ["card", "classic"]
+    },
+    {
+      "id": "game31",
+      "title": "Roulette Pro",
+      "thumbnail": "https://example.com/thumbnails/roulette-pro.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "table",
+      "slug": "roulette-pro",
+      "isNew": false,
+      "tags": ["roulette", "classic"]
+    },
+    {
+      "id": "game32",
+      "title": "Oasis Poker",
+      "thumbnail": "https://example.com/thumbnails/oasis-poker.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "table",
+      "slug": "oasis-poker",
+      "isNew": false,
+      "tags": ["poker", "card"]
+    },
+    {
+      "id": "game33",
+      "title": "Blackjack Switch",
+      "thumbnail": "https://example.com/thumbnails/blackjack-switch.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "table",
+      "slug": "blackjack-switch",
+      "isNew": true,
+      "tags": ["card", "innovative"]
+    },
+    {
+      "id": "game34",
+      "title": "Live Roulette",
+      "thumbnail": "https://example.com/thumbnails/live-roulette.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "live",
+      "slug": "live-roulette",
+      "isNew": false,
+      "tags": ["roulette", "live"]
+    },
+    {
+      "id": "game35",
+      "title": "Live Blackjack",
+      "thumbnail": "https://example.com/thumbnails/live-blackjack.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "live",
+      "slug": "live-blackjack",
+      "isNew": false,
+      "tags": ["card", "live"]
+    },
+    {
+      "id": "game36",
       "title": "Live Baccarat",
       "thumbnail": "https://example.com/thumbnails/live-baccarat.jpg",
       "provider": {
-        "id": "evolution",
-        "name": "Evolution Gaming",
-        "logo": "https://example.com/logos/evolution.png"
-      },
-      "type": "live",
-      "slug": "live-baccarat",
-      "isNew": false,
-      "tags": ["cards", "classic"]
-    },
-    {
-      "id": "17",
-      "title": "Reactoonz",
-      "thumbnail": "https://example.com/thumbnails/reactoonz.jpg",
-      "provider": {
-        "id": "playngo",
+        "id": "prov3",
         "name": "Play'n GO",
         "logo": "https://example.com/logos/playngo.png"
       },
-      "type": "slots",
-      "slug": "reactoonz",
-      "isNew": false,
-      "tags": ["space", "bonus"]
-    },
-    {
-      "id": "18",
-      "title": "Poker",
-      "thumbnail": "https://example.com/thumbnails/poker.jpg",
-      "provider": {
-        "id": "netent",
-        "name": "NetEnt",
-        "logo": "https://example.com/logos/netent.png"
-      },
-      "type": "table",
-      "slug": "poker",
-      "isNew": false,
-      "tags": ["cards", "strategy"]
-    },
-    {
-      "id": "19",
-      "title": "JetX",
-      "thumbnail": "https://example.com/thumbnails/jetx.jpg",
-      "provider": {
-        "id": "spribe",
-        "name": "Spribe",
-        "logo": "https://example.com/logos/spribe.png"
-      },
-      "type": "instant",
-      "slug": "jetx",
+      "type": "live",
+      "slug": "live-baccarat",
       "isNew": true,
-      "tags": ["crash", "multiplier"]
+      "tags": ["card", "live"]
     },
     {
-      "id": "20",
-      "title": "Wolf Gold",
-      "thumbnail": "https://example.com/thumbnails/wolf-gold.jpg",
+      "id": "game37",
+      "title": "Dream Catcher",
+      "thumbnail": "https://example.com/thumbnails/dream-catcher.jpg",
       "provider": {
-        "id": "pragmatic",
+        "id": "prov4",
         "name": "Pragmatic Play",
         "logo": "https://example.com/logos/pragmatic.png"
       },
-      "type": "slots",
-      "slug": "wolf-gold",
+      "type": "live",
+      "slug": "dream-catcher",
       "isNew": false,
-      "tags": ["mythology", "bonus"]
+      "tags": ["wheel", "live"]
+    },
+    {
+      "id": "game38",
+      "title": "Live Casino Hold'em",
+      "thumbnail": "https://example.com/thumbnails/live-casino-holdem.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "live",
+      "slug": "live-casino-holdem",
+      "isNew": false,
+      "tags": ["poker", "live"]
+    },
+    {
+      "id": "game39",
+      "title": "Lightning Roulette",
+      "thumbnail": "https://example.com/thumbnails/lightning-roulette.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "live",
+      "slug": "lightning-roulette",
+      "isNew": true,
+      "tags": ["roulette", "live"]
+    },
+    {
+      "id": "game40",
+      "title": "Monopoly Live",
+      "thumbnail": "https://example.com/thumbnails/monopoly-live.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "live",
+      "slug": "monopoly-live",
+      "isNew": false,
+      "tags": ["board", "live"]
+    },
+    {
+      "id": "game41",
+      "title": "Live Three Card Poker",
+      "thumbnail": "https://example.com/thumbnails/live-three-card-poker.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "live",
+      "slug": "live-three-card-poker",
+      "isNew": false,
+      "tags": ["poker", "live"]
+    },
+    {
+      "id": "game42",
+      "title": "Crazy Time",
+      "thumbnail": "https://example.com/thumbnails/crazy-time.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "live",
+      "slug": "crazy-time",
+      "isNew": true,
+      "tags": ["wheel", "live"]
+    },
+    {
+      "id": "game43",
+      "title": "Live Ultimate Texas Hold'em",
+      "thumbnail": "https://example.com/thumbnails/live-ultimate-texas-holdem.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "live",
+      "slug": "live-ultimate-texas-holdem",
+      "isNew": false,
+      "tags": ["poker", "live"]
+    },
+    {
+      "id": "game44",
+      "title": "Immersive Roulette",
+      "thumbnail": "https://example.com/thumbnails/immersive-roulette.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "live",
+      "slug": "immersive-roulette",
+      "isNew": false,
+      "tags": ["roulette", "live"]
+    },
+    {
+      "id": "game45",
+      "title": "Live Dragon Tiger",
+      "thumbnail": "https://example.com/thumbnails/live-dragon-tiger.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "live",
+      "slug": "live-dragon-tiger",
+      "isNew": true,
+      "tags": ["card", "live"]
+    },
+    {
+      "id": "game46",
+      "title": "Deal or No Deal Live",
+      "thumbnail": "https://example.com/thumbnails/deal-or-no-deal-live.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "live",
+      "slug": "deal-or-no-deal-live",
+      "isNew": false,
+      "tags": ["game-show", "live"]
+    },
+    {
+      "id": "game47",
+      "title": "Live Sic Bo",
+      "thumbnail": "https://example.com/thumbnails/live-sic-bo.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "live",
+      "slug": "live-sic-bo",
+      "isNew": false,
+      "tags": ["dice", "live"]
+    },
+    {
+      "id": "game48",
+      "title": "Live Fan Tan",
+      "thumbnail": "https://example.com/thumbnails/live-fan-tan.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "live",
+      "slug": "live-fan-tan",
+      "isNew": true,
+      "tags": ["classic", "live"]
+    },
+    {
+      "id": "game49",
+      "title": "Keno",
+      "thumbnail": "https://example.com/thumbnails/keno.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "instant",
+      "slug": "keno",
+      "isNew": false,
+      "tags": ["lottery", "quick"]
+    },
+    {
+      "id": "game50",
+      "title": "Scratch Cards",
+      "thumbnail": "https://example.com/thumbnails/scratch-cards.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "instant",
+      "slug": "scratch-cards",
+      "isNew": false,
+      "tags": ["scratch", "quick"]
+    },
+    {
+      "id": "game51",
+      "title": "Bingo Blast",
+      "thumbnail": "https://example.com/thumbnails/bingo-blast.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "instant",
+      "slug": "bingo-blast",
+      "isNew": true,
+      "tags": ["bingo", "quick"]
+    },
+    {
+      "id": "game52",
+      "title": "Instant Win",
+      "thumbnail": "https://example.com/thumbnails/instant-win.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "instant",
+      "slug": "instant-win",
+      "isNew": false,
+      "tags": ["quick", "fun"]
+    },
+    {
+      "id": "game53",
+      "title": "Lucky Numbers",
+      "thumbnail": "https://example.com/thumbnails/lucky-numbers.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "instant",
+      "slug": "lucky-numbers",
+      "isNew": false,
+      "tags": ["lottery", "quick"]
+    },
+    {
+      "id": "game54",
+      "title": "Cash Scratch",
+      "thumbnail": "https://example.com/thumbnails/cash-scratch.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "instant",
+      "slug": "cash-scratch",
+      "isNew": true,
+      "tags": ["scratch", "quick"]
+    },
+    {
+      "id": "game55",
+      "title": "Super Keno",
+      "thumbnail": "https://example.com/thumbnails/super-keno.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "instant",
+      "slug": "super-keno",
+      "isNew": false,
+      "tags": ["lottery", "quick"]
+    },
+    {
+      "id": "game56",
+      "title": "Bingo Bonanza",
+      "thumbnail": "https://example.com/thumbnails/bingo-bonanza.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "instant",
+      "slug": "bingo-bonanza",
+      "isNew": false,
+      "tags": ["bingo", "quick"]
+    },
+    {
+      "id": "game57",
+      "title": "Quick Win",
+      "thumbnail": "https://example.com/thumbnails/quick-win.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "instant",
+      "slug": "quick-win",
+      "isNew": true,
+      "tags": ["quick", "fun"]
+    },
+    {
+      "id": "game58",
+      "title": "Lucky Scratch",
+      "thumbnail": "https://example.com/thumbnails/lucky-scratch.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "instant",
+      "slug": "lucky-scratch",
+      "isNew": false,
+      "tags": ["scratch", "quick"]
+    },
+    {
+      "id": "game59",
+      "title": "Instant Bingo",
+      "thumbnail": "https://example.com/thumbnails/instant-bingo.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "instant",
+      "slug": "instant-bingo",
+      "isNew": false,
+      "tags": ["bingo", "quick"]
+    },
+    {
+      "id": "game60",
+      "title": "Fast Keno",
+      "thumbnail": "https://example.com/thumbnails/fast-keno.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "instant",
+      "slug": "fast-keno",
+      "isNew": false,
+      "tags": ["lottery", "quick"]
+    },
+    {
+      "id": "game61",
+      "title": "Scratch Mania",
+      "thumbnail": "https://example.com/thumbnails/scratch-mania.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "instant",
+      "slug": "scratch-mania",
+      "isNew": true,
+      "tags": ["scratch", "quick"]
+    },
+    {
+      "id": "game62",
+      "title": "Bingo Rush",
+      "thumbnail": "https://example.com/thumbnails/bingo-rush.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "instant",
+      "slug": "bingo-rush",
+      "isNew": false,
+      "tags": ["bingo", "quick"]
+    },
+    {
+      "id": "game63",
+      "title": "Lucky Dip",
+      "thumbnail": "https://example.com/thumbnails/lucky-dip.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "instant",
+      "slug": "lucky-dip",
+      "isNew": false,
+      "tags": ["lottery", "quick"]
+    },
+    {
+      "id": "game64",
+      "title": "Mega Scratch",
+      "thumbnail": "https://example.com/thumbnails/mega-scratch.jpg",
+      "provider": {
+        "id": "prov1",
+        "name": "NetEnt",
+        "logo": "https://example.com/logos/netent.png"
+      },
+      "type": "instant",
+      "slug": "mega-scratch",
+      "isNew": true,
+      "tags": ["scratch", "quick"]
+    },
+    {
+      "id": "game65",
+      "title": "Quick Bingo",
+      "thumbnail": "https://example.com/thumbnails/quick-bingo.jpg",
+      "provider": {
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      "type": "instant",
+      "slug": "quick-bingo",
+      "isNew": false,
+      "tags": ["bingo", "quick"]
+    },
+    {
+      "id": "game66",
+      "title": "Instant Keno",
+      "thumbnail": "https://example.com/thumbnails/instant-keno.jpg",
+      "provider": {
+        "id": "prov3",
+        "name": "Play'n GO",
+        "logo": "https://example.com/logos/playngo.png"
+      },
+      "type": "instant",
+      "slug": "instant-keno",
+      "isNew": false,
+      "tags": ["lottery", "quick"]
+    },
+    {
+      "id": "game67",
+      "title": "Lucky Wheel",
+      "thumbnail": "https://example.com/thumbnails/lucky-wheel.jpg",
+      "provider": {
+        "id": "prov4",
+        "name": "Pragmatic Play",
+        "logo": "https://example.com/logos/pragmatic.png"
+      },
+      "type": "instant",
+      "slug": "lucky-wheel",
+      "isNew": true,
+      "tags": ["wheel", "quick"]
+    },
+    {
+      "id": "game68",
+      "title": "Gold Rush Scratch",
+      "thumbnail": "https://example.com/thumbnails/gold-rush-scratch.jpg",
+      "provider": {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
+      },
+      "type": "instant",
+      "slug": "gold-rush-scratch",
+      "isNew": false,
+      "tags": ["scratch", "quick"]
     }
   ],
   "pagination": {
     "page": 1,
-    "pageSize": 20,
-    "total": 20,
+    "pageSize": 70,
+    "total": 70,
     "hasMore": false
   },
   "meta": {
     "providers": [
       {
-        "id": "netent",
+        "id": "prov1",
         "name": "NetEnt",
         "logo": "https://example.com/logos/netent.png"
       },
       {
-        "id": "playngo",
+        "id": "prov2",
+        "name": "Microgaming",
+        "logo": "https://example.com/logos/microgaming.png"
+      },
+      {
+        "id": "prov3",
         "name": "Play'n GO",
         "logo": "https://example.com/logos/playngo.png"
       },
       {
-        "id": "evolution",
-        "name": "Evolution Gaming",
-        "logo": "https://example.com/logos/evolution.png"
-      },
-      {
-        "id": "spribe",
-        "name": "Spribe",
-        "logo": "https://example.com/logos/spribe.png"
-      },
-      {
-        "id": "pragmatic",
+        "id": "prov4",
         "name": "Pragmatic Play",
         "logo": "https://example.com/logos/pragmatic.png"
+      },
+      {
+        "id": "prov5",
+        "name": "Big Time Gaming",
+        "logo": "https://example.com/logos/btg.png"
       }
     ],
     "types": ["slots", "table", "live", "instant"]
